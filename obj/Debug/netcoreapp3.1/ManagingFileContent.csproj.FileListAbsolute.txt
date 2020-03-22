@@ -1,0 +1,11 @@
+C:\Users\jonat\Documents\C#\Projects\ManagingFileContent\bin\Debug\netcoreapp3.1\ManagingFileContent.exe
+C:\Users\jonat\Documents\C#\Projects\ManagingFileContent\bin\Debug\netcoreapp3.1\ManagingFileContent.deps.json
+C:\Users\jonat\Documents\C#\Projects\ManagingFileContent\bin\Debug\netcoreapp3.1\ManagingFileContent.runtimeconfig.json
+C:\Users\jonat\Documents\C#\Projects\ManagingFileContent\bin\Debug\netcoreapp3.1\ManagingFileContent.runtimeconfig.dev.json
+C:\Users\jonat\Documents\C#\Projects\ManagingFileContent\bin\Debug\netcoreapp3.1\ManagingFileContent.dll
+C:\Users\jonat\Documents\C#\Projects\ManagingFileContent\bin\Debug\netcoreapp3.1\ManagingFileContent.pdb
+C:\Users\jonat\Documents\C#\Projects\ManagingFileContent\obj\Debug\netcoreapp3.1\ManagingFileContent.csprojAssemblyReference.cache
+C:\Users\jonat\Documents\C#\Projects\ManagingFileContent\obj\Debug\netcoreapp3.1\ManagingFileContent.AssemblyInfoInputs.cache
+C:\Users\jonat\Documents\C#\Projects\ManagingFileContent\obj\Debug\netcoreapp3.1\ManagingFileContent.AssemblyInfo.cs
+C:\Users\jonat\Documents\C#\Projects\ManagingFileContent\obj\Debug\netcoreapp3.1\ManagingFileContent.dll
+C:\Users\jonat\Documents\C#\Projects\ManagingFileContent\obj\Debug\netcoreapp3.1\ManagingFileContent.pdb
