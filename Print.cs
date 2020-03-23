@@ -15,24 +15,22 @@ namespace ManagingFileContent
             {
                 var lines = File.ReadAllLines(fullpath);
                 string sourceFolderPath = Path.GetDirectoryName(fullpath);
-                string targetFolderPath = fullpath + @"\out";
-                string targetFilePath = targetFolderPath + @"\summary.csv";
+                string targetFolderPath = sourceFolderPath + @"\out";
+                string targetFilePath = targetFolderPath + @"\summary.txt";
 
                 Directory.CreateDirectory(targetFolderPath);
 
-                using (StreamWriter sw = File.AppendText(targetFilePath))
+                using StreamWriter sw = File.AppendText(targetFilePath);
+                foreach (string line in lines)
                 {
-                    foreach (string line in lines)
-                    {
-                        var fields = line.Split(',');
-                        string name = fields[0];
-                        double price = double.Parse(fields[1]);
-                        int quantity = int.Parse(fields[2]);
+                    var fields = line.Split(',');
+                    string name = fields[0];
+                    double price = double.Parse(fields[1]);
+                    int quantity = int.Parse(fields[2]);
 
-                        Product product = new Product(name, price, quantity);
+                    Product product = new Product(name, price, quantity);
 
-                        sw.WriteLine($"{product.Name}, {product.TotalPrice()}");
-                    }
+                    sw.WriteLine($"{product.Name}, {product.TotalPrice()}");
                 }
             }
             catch (IOException e)
